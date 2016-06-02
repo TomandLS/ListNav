@@ -1,0 +1,52 @@
+* { margin: 0; padding: 0; border: 0; }
+body { font-family: Arial; box-sizing: border-box; color: #373737; font-size: 17px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+p { margin: 10px 0 15px 0; }
+a { text-decoration: none; color: #007EDF; text-shadow: none; }
+ul, li { list-style: none; }
+
+.clr:after { content: ''; display: block; float: none; clear: both; }
+
+#listNav { position: relative; max-width: 800px; padding: 20px 10px; margin: 20px auto 0; }
+#listNav a:hover { color: #0069BA; text-shadow: #0090FF 0px 0px 1px; }
+
+#demoOne-nav { margin-bottom: 90px; }
+#demoOne-nav a { font-size: 12px; width: 10px; height: 35px; line-height: 35px; padding: 0 5px; color: #C1C1C1; }
+#demoOne-nav a.all { width: 50px; background: #A6C0D1; color: #FFF; text-align: center; font-weight: bold; }
+#demoOne-nav .ln-letters { background: #5A5A5A; }
+#demoOne-nav .ln-letters a { font-size: 0.9em; display: block; float: left; padding: 2px 6px; border-right: none; text-decoration: none; }
+#demoOne-nav .ln-letters .active { background-color: #848484; }
+#demoOne-nav .ln-letters a:hover { background-color: #EAEAEA; }
+#demoOne-nav .ln-letters a.all:hover { background-color: #A6C0D1; }
+#demoOne-nav .ln-count { position: absolute; text-align: center; font-size: 14px; }
+
+#demoOne:after { content: ''; display: block; float: none; clear: both; }
+#demoOne .group { position: relative; margin-bottom: 50px; }
+#demoOne .group .abC { width: 65px; height: 65px; background: #CFCFCF; color: #FFF; position: absolute; overflow: hidden; }
+#demoOne .group .abC span { font-size: 90px; font-weight: bold; position: absolute; top: -33px; color: #F6F4F5; }
+#demoOne .group .abC span.num { left: 7px; }
+#demoOne .group .abC span.e { left: 2px; }
+#demoOne .group .abC span.f { left: 4px; }
+#demoOne .group .abC span.g { left: -3px; }
+#demoOne .group .abC span.i { left: 20px; }
+#demoOne .group .abC span.j { left: 9px; }
+#demoOne .group .abC span.l { left: 3px; }
+#demoOne .group .abC span.m { left: -5px; }
+#demoOne .group .abC span.o { left: -3px; }
+#demoOne .group .abC span.p { left: 2px; }
+#demoOne .group .abC span.q { left: -2px; }
+#demoOne .group .abC span.s { left: 2px; }
+#demoOne .group .abC span.t { left: 4px; }
+#demoOne .group .abC span.v { left: 3px; }
+#demoOne .group .abC span.w { left: -10px; }
+#demoOne .group .abC span.x { left: 3px; }
+#demoOne .group .abC span.y { left: 3px; }
+#demoOne .group .abC span.z { left: 5px; }
+#demoOne .group .liList { margin-left: 60px; }
+#demoOne .group .liList:after { content: ''; display: block; float: none; clear: both; }
+#demoOne .group .liList li { float: left; width: 175px; height: 70px; margin-left: 40px; margin-bottom: 30px; }
+#demoOne .group .liList li a { display: block; }
+#demoOne .group .liList li a span { display: block; text-align: center; }
+#demoOne .group .liList li a .thumb { border-right: 1px solid #B9B9B9; border-bottom: 1px solid #B9B9B9; box-shadow: 2px 2px 2px #DADADA; margin-bottom: 3px; }
+#demoOne .group .liList li a .thumb img { margin-top: 5px; }
+#demoOne .group .liList li a .title { color: #000; font-size: 12px; }
+
